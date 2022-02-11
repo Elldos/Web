@@ -1,0 +1,169 @@
+* {
+    background-color: rgb(250, 250, 250);
+    margin:0%;
+    padding: 0%;
+}
+#photo{
+    margin-top:50px;
+    margin-left:370px;
+}
+#glava{
+    width: 400px;
+    height: 420px;
+    margin-top:-540px;
+    margin-left:790px;
+    background-color: white;
+    border-width: 2px;
+    border-style:solid ;
+    border-color: rgb(233, 233, 233);
+}
+#form{
+    margin-top:30px;
+    background-color: white   ;
+}
+#form input{
+    margin-top: 4px;
+    background-color: rgb(240, 240, 240);
+margin-left: 55px;
+border-radius: 4px;
+border-style:groove;
+border-color: rgb(245, 245, 245);
+margin-right: -10px;
+    padding:15px;
+    width: 250px;
+    font-family: inherit;
+    font-size: 14px;
+    height:2px;
+}
+button{
+    margin-top: 14px;
+    margin-left: 53px;
+    background-color:#9ac5fa ;
+    width: 71%;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height:32px;
+    border-style:hidden;
+    cursor:pointer;
+
+}
+#linia{
+   margin-top: 30px;
+    background-color: white;
+   }
+hr{
+    
+    height: 0.2px;
+    margin-left:53px;
+    width:71%;
+    color: red;
+}
+#siu{
+    color: gray;
+    margin-top:-10px;
+    margin-left:165px;
+    width: 50px;
+    text-align: center;
+    background-color: white ;
+
+}
+#fls{
+   margin-top: 40px;
+   width: 22px;
+padding-left: 98px;
+background-color: white;
+cursor:pointer;
+}
+#lgin{
+    width: 268px;
+    float: left;
+    margin-left: 33px;
+    margin-top: -24px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:rgb(33, 86, 133);
+    background-color: white;
+    cursor:pointer;
+    text-decoration: none;
+    
+}
+
+
+#imga{
+    width:22px;
+    height: 22px;
+
+}
+#pass{
+    width: 263px;
+    background-color: white;
+    margin-top:20px;
+    padding-left: 138px;
+    font-size: 15px;
+    color: rgb(52, 83, 109);
+}
+#mucha{
+    margin-left:790px;
+    background-color: white;
+    height: 30px;
+    width: 321px;
+    margin-top:10px ;
+    padding-top: 15px;
+    padding-left: 80px;
+    border-width: 2px;
+    border-style:solid ;
+    border-color: rgb(233, 233, 233);
+}
+#gracios{
+    background-color: white;
+}
+#zh{
+    margin-left:800px;
+    margin-top:0px;
+    width:390px;
+    height: 110px;
+    
+}
+ul {
+    list-style-type: none;
+    margin-left:320px;
+    margin-top:60px;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size:13px;
+    font-weight: 100;
+    cursor:pointer;    
+    
+}
+li{
+    margin-left: 40px;
+    color:gray
+    
+}
+#lastkatka{
+    margin-top: 10px;
+    width:100%;
+    margin-left:650px;
+    cursor:pointer;
+}
+#bl{
+    width:100px;
+    color: gray;
+    border-width: 0px;
+
+}
+#pp{
+    margin-left:120px;
+    color: gray;
+    font-size: 14px;
+    margin-top: -17px;
+}
+footer{
+    height: 100px;
+}
