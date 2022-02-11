@@ -1,0 +1,191 @@
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <style>
+            * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eee;
+}
+
+#wrapper {
+  width: 500px;
+  height: 90%;
+  overflow: hidden;
+  border: 0px solid #000;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.main-content {
+  width: 250px;
+  height: 52%;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 40px 50px;
+  box-shadow: 1px 1px 1px #e6e8ebd2,
+                -1px -1px 1px #dfe1e2;
+  
+}
+
+.header {
+  border: 0px solid #000;
+  margin-bottom: 30px;
+}
+
+.header img {
+  height: 50px;
+  width: 175px;
+  margin: auto;
+  position: relative;
+  left: 40px;
+}
+
+.input-1,
+.input-2 {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #e4dedee5;
+}
+
+.overlap-text {
+  position: relative;
+}
+
+.overlap-text a {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #003569;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Overpass Mono', monospace;
+  letter-spacing: -1px;
+}
+
+.btn {
+  width: 100%;
+  background-color: #3897f0;
+  border: 3px solid #3897f0;
+  padding: 5px 12px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.sub-content {
+  width: 313px;
+  box-shadow: 1px 1px 1px #e6e8ebd2,
+                -1px -1px 1px #dfe1e2;
+  margin: 5px auto;
+  border: 0px solid white;
+  padding: 20px 20px;
+  background-color: white;
+}
+
+.s-part {
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-weight: normal;
+  font-size: 15px;
+
+}
+
+.s-part a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3897f0;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-weight: normal;
+}
+
+input:focus {
+    background-color: rgb(231, 230, 230);
+}
+.ili{
+  margin:15px;
+  color: rgb(185, 174, 174);
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fb{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-style: inherit;
+  font-weight: lighter;
+}
+.forg{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size:14px;
+}
+.dow{
+  margin-top: 20px;
+  text-align: center;
+}
+.imgs{
+  margin-top: 20px;
+  text-align: center;
+}
+
+        </style>
+    </head>
+    <body>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Overpass+Mono" rel="stylesheet">
+    
+<div id="wrapper">
+  <div class="main-content">
+    <div class="header">
+      <img src="https://i.imgur.com/zqpwkLQ.png" />
+    </div>
+    <div class="l-part">
+      <input type="text" placeholder="Телефон, имя пользователя или эл.адрес" class="input-1" />
+      <div class="overlap-text">
+        <input type="password" placeholder="Пароль" class="input-2" />
+      </div>
+      <input type="button" value="Войти" class="btn" />
+    </div>
+    <div class="ili">
+      ИЛИ
+    </div>
+    <div class="fb">
+      <img src="https://findicons.com/files/icons/2385/sharelove_social_media_icon_pack/128/facebook.png" height="16px" width="16px">  <a href="https://web.facebook.com/?_rdc=1&_rdr" style="text-decoration: none;"> Войти через Facebook</a>
+    </div>
+    <div class="forg">
+      <a href="#" style="text-decoration: none;">Забыли пароль?</a>
+    </div>
+  </div>
+  <div class="sub-content">
+    <div class="s-part">
+      У вас еще нет аккаунта? <a href="#"> Зарегистрироваться</a>
+    </div>
+  </div>
+  <div class="dow">
+    Установите приложение
+  </div>
+  <div class="imgs">
+    <a href="#"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_russian-ru.png/bfba6d0fd6bd.png" height="40px" width="140px"> </a>  <a href="#"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_russian-ru.png/4c70948c09f3.png" height="40px" width="140px"></a>
+  </div>
+
+</div>
+</body>
+</html>
